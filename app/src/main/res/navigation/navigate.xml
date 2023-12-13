@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navegar"
+    app:startDestination="@id/Play">
+
+    <fragment
+        android:id="@+id/Play"
+        android:name="com.example.dado.Play"
+        android:label="jugar"
+        tools:layout="@layout/fragment_play"
+        >
+        <action
+            android:id="@+id/action_jugar_to_launch"
+            app:destination="@id/launch" />
+    </fragment>
+    <fragment
+        android:id="@+id/launch"
+        android:name="com.example.dado.Launch"
+        android:label="fragment_launch"
+        tools:layout="@layout/fragment_launch" />
+
+</navigation>

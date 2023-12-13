@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Dado</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dados">Dados</string>
+    <string name="jugar">Jugar</string>
+    <string name="dado">dado</string>
+    <string name="lanzar">Lanzar</string>
+    <string name="item_label">item_label</string>
+    <string name="idioma">Idiomas</string>
+    <string name="elegir">Elige la cantidad de dados que quieres lanzar</string>
+
+    <string-array name="cantidad">
+        <item>1</item>
+        <item>2</item>
+
+    </string-array>
+
+    <string-array name="Idiomas">
+        <item>Español</item>
+        <item>Ingles</item>
+    </string-array>
+
+</resources>
